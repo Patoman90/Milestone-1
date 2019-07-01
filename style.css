@@ -1,14 +1,8 @@
-/*---Google-Fonts---- */
+/*------------------------------------Google-Fonts------------------------------------------------- */
+
 @import url('https://fonts.googleapis.com/css?family=Lobster+Two&display=swap');
 
-/*---------------Mediia queries------*/
-@media(min-width:767px){.mobile{}}
-
-.tablet{}
-
-.desktop{}
-
-/*---------------colors--------------*/
+/*----------------------------------COLORS-------------------------------------------------------*/
 
 .bg-color-name-title{
   
@@ -40,7 +34,7 @@
 {color:#fff;
   background-color:#00ace6;
   border-radius:20px;
-  margin-top:10px;
+  margin-top:30px;
   margin-bottom:20px;
   }
 
@@ -51,28 +45,33 @@
 section{background-color: #ccffe6;
 }
 
+#star{color:#fff;
+}
 
-  
+#gap{padding-top:20px;}
 
-/*---------------Heading*/
+
+
+/*---------------Heading--------------------------------------------------------*/
 
 img{
   
-  margin:10px;
-  border:0;
+  margin:15px;
+  border:0px;
   border-radius:10px;
   height:300px;
-  width:300px;
-  padding:0px;
-  
+  padding:10px;
+  background-color:#ccffe6;
 }
 
 .name {
   font-family: 'Lobster Two', sans-serif;
+  text-align:center;
   font-weight:100;
   font-size:50px;
-  margin-top:20px;
+  margin:25px;
   color:#fff;
+  padding:20px;
   
   
  
@@ -82,9 +81,11 @@ img{
   font-family:'Bitter',sans-serif;
   font-weight:100;
   font-size:30px;
-  margin-left:70px;
+  padding:10;
+  margin-left:40px;
+  margin-right:40px;
   margin-top:20px;
-  margin-bottom:80px;
+  margin-bottom:20px;
   color:#fff;
   
 }
@@ -120,7 +121,7 @@ height:50px;
 .heading {padding:20px;
   margin-left:150px;
 margin-top:20px;}
-/*--------------audio------------------*/
+/*--------------------------------------AUDIO--------------------------------------------*/
 
 audio{
   margin-left:20px;
@@ -128,17 +129,8 @@ audio{
   
 }
 
-#note{
-  font-family: 'Lobster Two', sans-serif;
-  font-weight:100;
-  font-size:50px;
-color:#fff;}
 
-
-
-
-
-/*-------------video----------*/
+/*-------------------------------------VIDEO----------------------------------------------*/
 
 
 
@@ -152,22 +144,17 @@ video {
   justify-content: center;
   align-items: center;
 }
-/*--------------H tags---------------*/  
-h1,h2,h3{margin:20px;
-  
-  
+/*-------------------------------------H-TAGS-------------------------------------------------*/  
+
+
+h1,h2,h3{padding:20px;
+  margin-right:50px;
+  border:0;
 }
 
-#star{font-family: 'Lobster Two', sans-serif;
-  font-weight:100;
-  font-size:50px;
-color:#fff;}
 
 
-
-
-
-/*------------Paragraph----------------*/
+/*-------------------------------------Paragraph----------------------------------------------*/
 
 p{margin:20px;
 padding-bottom:10px;
@@ -176,19 +163,12 @@ padding-top:10px;
 
 .clarks{padding:10px;}
 
-/*------------------------------*/
-hr{width:800px;}
-/*-------------Footer-----------------*/
-footer{
-  margin:10px;
-  padding:20px;
-  background-color:#cce5ff;
-  color:blue;
- 
-
-  
+/*------------------------------------------HR----------------------------------------------------*/
+hr{
+  width:800px;
 }
-/*----------------Table------------*/
+
+/*------------------------------------------Table-----------------------------------------------------*/
 table{margin:10px;
   padding:10px;
   border:10px;
@@ -207,16 +187,17 @@ td{
 }
 
 
+
 h2{background-color: #1ad1ff;
   border-radius:20px;
   font-family: 'Lobster-Two', cursive;
   
 text-align:center;
-padding:30px;
-  border:10px;
-  margin:0px;
+padding:25px;
+  border:0px;
+  margin:30px;
 }
-/*--------------Button------------*/
+/*-----------------------------------------------Button-------------------------------------------------------*/
 button{padding:50px;
   margin:0;
   
@@ -224,11 +205,15 @@ button{padding:50px;
   color:white;
   
 }
-/*------------Form---------------*/
+/*------------------------------------------------Form-------------------------------------------------------------*/
 form{
   margin:30px;
   padding:20px;
 }
+/*----------------------------------------Footer----------------------------------------------------*/
+footer{
+  background-color:#cce5ff;
+}
 
-/*----------------------------*/
+/*--------------------------------------------------------------------------------------------------------------*/
 
